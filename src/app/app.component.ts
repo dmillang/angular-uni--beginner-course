@@ -8,6 +8,7 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   data = {
-    title:'Angular Beginners Introduction'
+    title:'Angular Beginners Introduction',
+    subTitle:'This is a subtitle'
   };
 }
