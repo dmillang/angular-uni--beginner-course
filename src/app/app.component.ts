@@ -8,7 +8,14 @@ import { Component } from '@angular/core';
 export class AppComponent {
 
   data = {
-    title:'Angular Beginners Introduction',
-    subTitle:'This is a subtitle'
+    title:'Angular Beginners Introduction'
   };
+
+  OnClickRocket() {
+    alert('Hello World!');
+  };
+
+  onKeyUp(newTitle:string) {
+    this.data.title = newTitle;
+  }
 }
